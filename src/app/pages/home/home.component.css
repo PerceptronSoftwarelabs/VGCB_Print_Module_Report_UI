@@ -1,0 +1,163 @@
+/*  Header Container Start */
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  user-select: none;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 100px;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+  max-width: 100%;
+}
+
+.title-section {
+  flex: 2;
+  text-align: center;
+  min-width: 200px;
+}
+
+.title-section .title {
+  margin: 0;
+  font-size: 22px;
+  color: #005ca8;
+}
+
+.title-section .subtitle {
+  color: #0aaf54;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  min-width: 150px;
+}
+
+.combineLogo {
+  height: 60px;
+  margin-right: 10px;
+  max-width: 100%;
+}
+
+.logout-button-wrapper {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.logout-button-wrapper:hover {
+  text-decoration: underline;
+}
+
+.logout-button-wrapper:focus {
+  outline: none;
+}
+
+.logout-btn {
+  width: 30px;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo-section,
+  .title-section,
+  .right-section {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .title-section .title {
+    font-size: 20px;
+  }
+
+  .title-section .subtitle {
+    font-size: 13px;
+  }
+
+  .vedanta-logo {
+    height: 25px;
+  }
+
+  .logout-btn {
+    width: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title-section .title {
+    font-size: 18px;
+  }
+
+  .title-section .subtitle {
+    font-size: 12px;
+  }
+
+  .logo {
+    height: 30px;
+  }
+
+  .vedanta-logo {
+    height: 20px;
+  }
+
+  .logout-btn {
+    width: 22px;
+  }
+}
+
+.container-fluid{
+  user-select: none;
+}
+
+button:active {
+  transform: scale(0.95);
+  opacity: 0.85;
+}
+
+.mat-row td {
+  text-align: center;
+  font-style: italic;
+  color: #888;
+}
+
+/*  Header Container END */
+
+/* ---------------------------------------------------- */
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 30px;
+  padding: 10px 20px;
+  color: #666;
+  font-size: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer p {
+  margin: 0;
+}
