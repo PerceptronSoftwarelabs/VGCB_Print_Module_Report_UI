@@ -203,8 +203,8 @@ export class HomeComponent implements AfterViewInit {
           <td style="border: 1px solid #000; padding: 5px;">${
             row.NetWeight || '-'
           }</td>
-          <td style="border: 1px solid #000; padding: 5px;"></td>
-          <td style="border: 1px solid #000; padding: 5px;"></td>
+          <td style="border: 1px solid #000; padding: 5px;">Shift</td>
+          <td style="border: 1px solid #000; padding: 5px;">${row.Shifts || '-'}</td>
         </tr>
         <tr>
           <td colspan="4" style="border: 1px solid #000; padding: 5px; text-align: center;">
